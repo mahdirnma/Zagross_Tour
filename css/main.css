@@ -141,3 +141,33 @@ body{
     width: 55%;
     height: auto;
 }
+.header-border .slider-dots{
+    bottom: -50px;
+}
+.header-border .slider-dots li{
+    width: 13px;
+}
+.header-border .slider-dots li button:before{
+    color: var(--mycolor);
+    opacity: 0.8;
+    font-size: 16px;
+}
+.header-border .slider-dots li.slick-active button:before{
+    color: var(--mycolor);
+}
+.header-border .slider-dots li.slick-active button:after{
+    font-family: 'slick';
+    font-size: 9px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: 1;
+    color: var(--white);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
